@@ -11,6 +11,8 @@ $age=$_POST['age'];
 $gender=$_POST['gender'];
 $blodgroup=$_POST['bloodgroup'];
 $address=$_POST['address'];
+$city = "Yaounde";
+$query->bindParam(':city',$city,PDO::PARAM_STR);
 $message=$_POST['message'];
 $status=1;
     $password=md5($_POST['password']);
@@ -21,7 +23,10 @@ $status=1;
     $results = $query -> fetchAll(PDO::FETCH_OBJ);
 if($query -> rowCount() == 0)
 {
-$sql="INSERT INTO  tblblooddonars(FullName,MobileNumber,EmailId,Age,Gender,BloodGroup,Address,Message,status,Password) VALUES(:fullname,:mobile,:email,:age,:gender,:blodgroup,:address,:message,:status,:password)";
+$sql="INSERT INTO tblblooddonars
+(FullName,MobileNumber,EmailId,Age,Gender,BloodGroup,Address,Message,status,Password,city)
+VALUES
+(:fullname,:mobile,:email,:age,:gender,:blodgroup,:address,:message,:status,:password,:city)";
 $query = $dbh->prepare($sql);
 $query->bindParam(':fullname',$fullname,PDO::PARAM_STR);
 $query->bindParam(':mobile',$mobile,PDO::PARAM_STR);

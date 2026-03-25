@@ -176,10 +176,10 @@ foreach($results as $result)
                 <ul>
                 
                 
-<li>A positive or A negative</li>
-<li>B positive or B negative</li>
-<li>O positive or O negative</li>
-<li>AB positive or AB negative.</li>
+<li>A+, A-</li>
+<li>B+, B-</li>
+<li>O+, O-</li>
+<li>AB+, AB-</li>
                 </ul>
                 <p>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
             </div>
