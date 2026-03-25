@@ -71,10 +71,7 @@ include('includes/config.php');
 					<i class="fas fa-user-md"></i>
 				</span>
 				<p class="py-3">
-Our mission is to create a centralized blood donation platform that connects blood donors with hospitals and patients in Yaoundé, Cameroon. 
-This system helps people quickly find blood donors in emergency situations within the city. 
-Through this website, we aim to promote awareness about blood donation in Yaoundé and encourage citizens to become regular donors. 
-By using technology to connect donors and recipients in real-time, this platform helps save lives across hospitals and communities in Yaoundé.
+My mission is to create a centralized blood donation platform that connects blood donors with hospitals and patients in Yaoundé, Cameroon. This system will help people quickly find blood donors in emergency situations within the city. Through this website, I aim to promote awareness about blood donation in Yaoundé and encourage citizens to become regular donors. By using technology to connect donors and recipients in real-time, this platform will help save lives across hospitals and communities in Yaoundé.
 </p>
 			</div>		
 		</div>
@@ -85,14 +82,14 @@ By using technology to connect donors and recipients in real-time, this platform
 	<h3 class="title py-xl-2 py-lg-2">Behind This Project?</h3>
 	<div class="card-deck">
 	<div class="card">
-    <img src="images\saad.jpeg" class="card-img-top team-img" alt="yann ebele" style="height:50%">
+    <img src="mypic.jpeg" class="card-img-top team-img" alt="yann ebele" style="height:50%">
     <div class="card-body">
       <h4 class="card-title">YANN EBELE</h4>
       <p class="card-text">Yann Ebele is a dedicated student with growing skills in web development and system design. As a student working on this project, he focuses on building practical solutions that can solve real-life problems, especially in the healthcare sector. With knowledge in PHP, HTML, CSS, and database management, he is committed to improving his skills and learning new technologies. Yann is passionate about using technology to make a positive impact, particularly by developing systems that can help save lives and improve services in his community.</p>      
 	  <div class="row p-2">
 	  <ul class="top-right-info">
                                 <li>
-                                    <a href="https://github.com/Saad-Khanzada">
+                                    <a href="https://github.com/Yann-ebele/Blood-Donation.git">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </li>                                
